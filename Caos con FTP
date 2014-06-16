@@ -1,0 +1,37 @@
+FTP
+Transmision de archivos
+Hosting barato normal --> /public_html/ <-- FTP
+	index.html
+	images
+	leonidas.jpg
+www.dogecoin.com
+
+Problemas que vamos a tener:
+1. Multiples personas en el equipo
+2. No hay culpa, nadie sabe que subio que.
+3. Es arcano
+
+Esto se resuelve con el Sistema de Control de Versiones
+SVN: Subversion / Mercurial / TFS / CVS / GIT
+Github
+1. Red social de programadores
+2. Web / Apps
+3. Mucho mas facil
+
+¿Como funciona Github?
+Repositorio de codigo GITHUB (master)
+	Clon local
+		commit - sync
+1. Multiples versiones del mismo codigo.
+2. Cambios delta por ser una base de datos atómicas.
+	Base de datos atomica del codigo.
+3. Historial de cada archivo.
+4. Multiples personas trabajan sobre el mismo archivo.
+5. Culpa al culpable.
+6. Ramas (branches)
+	*master (github.com) Repo Principal
+	*master (disco duro) Repo Local
+		*master
+			- Merge (fusion entre experimental - master)
+		*experimental local
+	*master (servidor.com) Repo Produccion

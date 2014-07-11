@@ -13,7 +13,8 @@ var $form = $("#formulario"),
 var id = setInterval(function(){
 	sessionStorage.setItem("titulo", $titulo.val());
 	sessionStorage.setItem("url", $url.val());
-},1000)
+},1000);
+
 function mostrarFormulario(){
 	$form.slideToggle();
 	$list.slideToggle();
